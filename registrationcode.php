@@ -8,8 +8,8 @@
 <body>
 <?php
 
-	mysql_connect('den1.mysql3.gear.host','dbsky','Uo6fzhg-t3D_');
-	mysql_select_db("dbsky");
+	mysql_connect('den1.mysql3.gear.host','dbasex','Uo6fzhg-t3D_');
+	mysql_select_db("dbasex");
 	$username=$_POST['username'];
 	$email=$_POST['email'];
 	$phone=$_POST['phone'];
