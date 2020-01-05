@@ -8,7 +8,7 @@
 <body>
 <?php
 
-	mysql_connect('localhost','root','1234');
+	mysql_connect('ftp.gear.host','skystore\$skystore','K5RgAC5lrxX1z3EXbJSfPn7ioWd5drcvmbjwp9izCqEgNxzmGENuBF4sQFDm');
 	mysql_select_db("dbsky");
 	$username=$_POST['username'];
 	$email=$_POST['email'];
