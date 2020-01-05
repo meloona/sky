@@ -1,8 +1,8 @@
 <?php
         ob_start();
-		$host="mysql3.gear.host"; // Host name 
-		$username="dbSky"; // Mysql username 
+		$host="den1.mysql3.gear.host"; // Host name 
+		$username="dbasex"; // Mysql username 
 		$password="Uo6fzhg-t3D_"; // Mysql password 
-		$db_name="dbSky"; // Database name 
+		$db_name="dbasex"; // Database name 
 		
 ?>
