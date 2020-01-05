@@ -24,13 +24,17 @@
 	if($result) 
 	{
 		echo '<script type="text/javascript">';
-echo ' alert("Thank you for your Register in our websit");';
-echo 'window.location.href = "index.php";';
-echo '</script>';	
+		echo ' alert("Thank you for your Register in our websit");';
+		echo 'window.location.href = "index.php";';
+		echo '</script>';	
 		
     }
 	
-	else echo "<b> ERROR:unable to submit the details.</b>";
+	else 
+		echo '<script type="text/javascript">';
+		echo ' alert("ERROR:unable to submit the details.");';
+		echo 'window.location.href = "register.php";';
+		echo '</script>';
    
 	?>   
 </body>
