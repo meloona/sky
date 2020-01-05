@@ -1,0 +1,825 @@
+
+<!-- saved from url=(0045)https://www.omantel.om/en/PaymentGateway.aspx -->
+<html xmlns:o="urn:schemas-microsoft-com:office:office" __expr-val-dir="ltr" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="GENERATOR" content="Microsoft SharePoint"><meta name="progid" content="SharePoint.WebPartPage.Document"><meta http-equiv="Expires" content="0"><meta name="ROBOTS" content="NOHTMLINDEX"><title>
+	Online Services - Omantel
+</title><link rel="stylesheet" type="text/css" href="./Online Services - Omantel_files/core.css">
+<script async="" src="./Online Services - Omantel_files/analytics.js"></script><script type="text/javascript" language="javascript" src="./Online Services - Omantel_files/init.js"></script>
+<script type="text/javascript" language="javascript" src="./Online Services - Omantel_files/core.js" defer=""></script>
+<script type="text/javascript" language="javascript" src="./Online Services - Omantel_files/non_ie.js"></script>
+<script type="text/javascript" language="javascript" src="./Online Services - Omantel_files/search.js" defer=""></script>
+<link type="text/xml" rel="alternate" href="https://www.omantel.om/_vti_bin/spsdisco.aspx"><link href="./Online Services - Omantel_files/omancss.css" type="text/css" rel="stylesheet"><link href="./Online Services - Omantel_files/style.css" type="text/css" rel="stylesheet">
+    <script language="javascript" type="text/javascript" src="./Online Services - Omantel_files/OmanMobile.js"></script> 
+     <script language="javascript" type="text/javascript" src="./Online Services - Omantel_files/script.js"></script>
+       <link rel="SHORTCUT ICON" href="https://www.omantel.om/wpresources/images/favicon.ico">
+    <script language="javascript" type="text/javascript">
+		function resetSearchBox()
+		{
+			document.getElementById('searchdiv').innerText = "Search Oman Mobile Portal";	
+		    document.getElementById('searchdiv').style.fontWeight = "normal";
+		    document.getElementById('searchdiv').style.color = "#FFFFFF";
+		}
+		
+		function blankSearchbox()
+		{
+		
+		
+		document.getElementById('txtSearch').value="";
+		document.getElementById('txtSearch').focus();
+		document.getElementById('txtSearch').style.textAlign="left";		}
+    </script>
+    
+    <script type="text/javascript" language="javascript" src="./Online Services - Omantel_files/jquery-1.2.2.pack.js">
+
+</script>
+<script type="text/javascript" language="javascript">
+
+
+
+$(document).ready(function(){
+  // Reset Font Size
+  var originalFontSize = $('*').css('font-size');
+  var originalpageheader=$('*.pageheadcss').css('font-size');
+
+ var originalFontSize='12px'
+ var flag=0;
+ 
+  $(".resetFont").click(function(){
+  $('*').css('font-size', originalFontSize);
+  });
+  // Increase Font Size
+  $(".increaseFont").click(function(){
+  
+  	var currentFontSize = $('*').css('font-size'); 
+  	if(flag==0)
+  	{
+  	
+  	   currentFontSize = originalFontSize;
+  	  
+  	   flag=1;
+  	}
+  	
+ 	var pageheadersize=$('*.pageheadcss').css('font-size');
+
+ 	var pageheadersizeNum= parseFloat(pageheadersize, 10);
+ 	var currentFontSizeNum = parseFloat(currentFontSize, 10);
+ 	
+ 	var pageheaderfont = pageheadersizeNum*1.1;
+    var newFontSize = currentFontSizeNum*1.1;
+if(newFontSize <16)
+{
+
+	    $('*.pageheadcss').css('font-size', pageheaderfont);
+		$('*').css('font-size', newFontSize);
+	}
+	else
+		alert('you cannot more maximize');
+
+	return false;
+  });
+  
+  // Decrease Font Size
+  $(".decreaseFont").click(function(){
+  	var currentFontSize = $('*').css('font-size');
+ 	var currentFontSizeNum = parseFloat(currentFontSize, 10);
+    var newFontSize = currentFontSizeNum*.8;
+    if(newFontSize>10)
+    {
+
+	$('*').css('font-size', newFontSize);
+	}
+	else
+	alert('You cannot more minimize');
+	return false;
+  });
+});
+
+
+
+//navigation through keyaccess
+function testKeyCode(e) {  
+
+   var keycode;   
+    if (window.event) keycode = window.event.keyCode;   
+    else if (e) keycode = e.which;   
+    var e = e || window.event;   
+   //alert(keycode);
+   //main (m)
+   if(keycode==77 && e.altKey && e.ctrlKey){   
+      
+       window.location.replace("http://www.omantel.om/default.aspx");  return false;     
+    }   
+    //home and personal (p)
+   if(keycode==80 && e.altKey && e.ctrlKey){   
+      
+       window.location.replace("http://www.omantel.om/OmanWebLib/Individual/default.aspx");  return false;     
+    }   
+    // buisness (b)
+    if(keycode==66 && e.altKey && e.ctrlKey){   
+        
+       window.location.replace("http://www.omantel.om/OmanWebLib/Business/default.aspx");  return false;     
+    }   
+    //travelling (t)
+    if(keycode==84 && e.altKey && e.ctrlKey){   
+        
+       window.location.replace("http://www.omantel.om/OmanWebLib/Travellers/default.aspx");  return false;     
+    }  
+    //online services (o)
+  if(keycode==79 && e.altKey && e.ctrlKey){   
+     
+       window.location.replace("https://www.omantel.om/en/default.aspx");  return false;     
+    }    
+    //aboutus (a)
+	if(keycode==65 && e.altKey && e.ctrlKey){   
+       
+       window.location.replace("http://www.omantel.om/omanweblib/AboutUs/default.aspx");  return false;     
+    }   
+
+    //Investers (I)
+	if(keycode==73 && e.altKey && e.ctrlKey){   
+    
+       window.location.replace("http://www.omantel.om/OmanWebLib/Investors/default.aspx");  return false;     
+    }    
+    //customercare (c)
+	if(keycode==67 && e.altKey && e.ctrlKey){   
+    
+       window.location.replace("http://www.omantel.om/OmanWebLib/customersupport/default.aspx");  return false;     
+    }    
+  }   
+  document.onkeyup = testKeyCode;   
+/////end keyaccess navigation
+
+
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54420627-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!--<meta name="Microsoft Theme" content="Plastic 1011, default" /> -->
+<style type="text/css">
+	.zz1_TopNavigationMenu_0 { background-color:white;visibility:hidden;display:none;position:absolute;left:0px;top:0px; }
+	.zz1_TopNavigationMenu_1 { text-decoration:none; }
+	.zz1_TopNavigationMenu_2 {  }
+	.zz1_TopNavigationMenu_3 { border-style:none; }
+	.zz1_TopNavigationMenu_4 {  }
+	.zz1_TopNavigationMenu_5 {  }
+	.zz1_TopNavigationMenu_6 { border-style:none; }
+	.zz1_TopNavigationMenu_7 {  }
+	.zz1_TopNavigationMenu_8 { background-color:White;border-color:White;border-width:0px; }
+	.zz1_TopNavigationMenu_9 { border-style:none; }
+	.zz1_TopNavigationMenu_10 {  }
+	.zz1_TopNavigationMenu_11 { border-style:none; }
+	.zz1_TopNavigationMenu_12 {  }
+	.zz1_TopNavigationMenu_13 { border-style:none; }
+	.zz1_TopNavigationMenu_14 {  }
+	.zz1_TopNavigationMenu_15 { border-style:none; }
+	.zz1_TopNavigationMenu_16 { background-color:White; }
+	.ctl00_PlaceHolderPageTitleInTitleArea_TitleBar_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_Left_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_Center_0 { border-color:Black;border-width:1px;border-style:Solid; }
+	.ctl00_PlaceHolderMain_Right_0 { border-color:Black;border-width:1px;border-style:Solid; }
+
+</style></head>
+<body scroll="yes" onload="javascript:if (typeof(_spBodyOnLoadWrapper) != &#39;undefined&#39;) _spBodyOnLoadWrapper(); javascript:if (typeof(BannerRotate) != &#39;undefined&#39;) BannerRotate();window.history.forward(1);" style="background-color: #FFFFFF">
+    <form name="aspnetForm" method="post" action="https://www.omantel.om/en/PaymentGateway.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div>
+<input type="hidden" name="MSO_PageHashCode" id="MSO_PageHashCode" value="1601668302055">
+<input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="">
+<input type="hidden" name="MSOTlPn_SelectedWpId" id="MSOTlPn_SelectedWpId" value="">
+<input type="hidden" name="MSOTlPn_View" id="MSOTlPn_View" value="0">
+<input type="hidden" name="MSOTlPn_ShowSettings" id="MSOTlPn_ShowSettings" value="False">
+<input type="hidden" name="MSOGallery_SelectedLibrary" id="MSOGallery_SelectedLibrary" value="">
+<input type="hidden" name="MSOGallery_FilterString" id="MSOGallery_FilterString" value="">
+<input type="hidden" name="MSOTlPn_Button" id="MSOTlPn_Button" value="none">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="0x8A96F14204C44CAF2EA509A3DB2A885D07BD5F385250FD8081C16B077EB5CF438EFB8C3F9E876B5E32E120ADE15F60D42FF285FFACDABC31BF2EAD0E6E5FB14C,15 Mar 2016 09:26:26 -0000">
+<input type="hidden" name="MSOSPWebPartManager_DisplayModeName" id="MSOSPWebPartManager_DisplayModeName" value="Browse">
+<input type="hidden" name="MSOWebPartPage_Shared" id="MSOWebPartPage_Shared" value="">
+<input type="hidden" name="MSOLayout_LayoutChanges" id="MSOLayout_LayoutChanges" value="">
+<input type="hidden" name="MSOLayout_InDesignMode" id="MSOLayout_InDesignMode" value="">
+<input type="hidden" name="MSOSPWebPartManager_OldDisplayModeName" id="MSOSPWebPartManager_OldDisplayModeName" value="Browse">
+<input type="hidden" name="MSOSPWebPartManager_StartWebPartEditingName" id="MSOSPWebPartManager_StartWebPartEditingName" value="false">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUBMA9kFgJmD2QWAmYPZBYCAgMPZBYIAgkPZBYCAgEPZBYCZg9kFgICAQ8PZBYCHgVjbGFzcwUYbXMtc2J0YWJsZSBtcy1zYnRhYmxlLWV4ZAIVD2QWAgIBD2QWAmYPDxYCHgdWaXNpYmxlaGRkAi0PZBYCAgYPZBYGAgEPZBYCZg8PFgIfAWhkZAIDD2QWAmYPDxYCHwFoZGQCBQ9kFgJmDw8WAh8BaGRkAjkPFgIfAWgWAmYPZBYEAgIPZBYGAgEPFgIfAWhkAgMPFgIfAWhkAgUPFgIfAWhkAgMPDxYCHglBY2Nlc3NLZXkFAS9kZBgCBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUhY3RsMDAkUGxhY2VIb2xkZXJUb3BOYXZCYXIkaWJ0bkdvBUVjdGwwMCRQbGFjZUhvbGRlclRvcE5hdkJhciRQbGFjZUhvbGRlckhvcml6b250YWxOYXYkVG9wTmF2aWdhdGlvbk1lbnUPD2QFD09ubGluZSBzZXJ2aWNlc2S0PImpbcMvc6igoWQIhDMjD4rQOw==">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script> var MSOWebPartPageFormName = 'aspnetForm';</script><script type="text/JavaScript" language="JavaScript">
+<!--
+var L_Menu_BaseUrl="";
+var L_Menu_LCID="1033";
+var L_Menu_SiteTheme="";
+//-->
+</script>
+<script src="./Online Services - Omantel_files/script(1).js" type="text/javascript"></script><link href="./Online Services - Omantel_files/style(1).css" rel="stylesheet" type="text/css">
+<script src="./Online Services - Omantel_files/script(1).js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+UpdateFormDigest('\u002f', 1440000);return _spFormOnSubmitWrapper();
+return true;
+}
+//]]>
+</script>
+
+        
+        <bgsound src="" id="TaifSound"></bgsound>
+        <table cellpadding="0" width="900" align="center" class="siteBorder" cellspacing="0"><tbody><tr><td></td></tr></tbody></table>
+        <table id="MASTERTABLE" cellpadding="0" align="center" cellspacing="0" height="700" border="0" width="900">            
+            <tbody><tr>
+                <td height="94">
+                    <table id="searchpart" cellpadding="0" cellspacing="0" border="0" width="100%">
+                        <tbody><tr>
+                            <td width="6px" style="background-image: url(&#39;/wpresources/images/left-border_en.jpg&#39;);
+                                background-repeat: repeat-y">
+                                &nbsp;
+                            </td>
+                            <td height="94" style="border-bottom-style:inset;border-bottom-width:1px;border-bottom-color:#f1f1f1 ">
+                            <table height="94"> 
+                               <tbody><tr>
+                                <td>
+                               
+                                 <table cellpadding="0" cellspacing="0" width="100%" height="100%" style="
+                                    background-repeat: repeat-x; padding-top: 5px">
+                                    <tbody><tr>
+                                        <td style="padding-top:8px" width="150">
+                                            <img src="./Online Services - Omantel_files/logo.gif" alt="Go to Home"></td>                                     
+                                    </tr>
+                                </tbody></table>
+
+                               </td>
+                      <td height="23px" style="width: 906px">
+								
+									<table border="0" cellspacing="0" align="right" cellpadding="0" width="100%" height="100%">
+									<tbody><tr align="right"> <td height="23">
+<div id="ctl00_PlaceHolderTopNavBar_pnlSearch" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ctl00_PlaceHolderTopNavBar_ibtnGo&#39;)">
+															
+									
+<table cellpadding="0px" cellspacing="5px"><tbody><tr valign="middle">
+<!--<td valign="middle" align="center"  width="103px" style="height: 21px" background="/wpresources/Images/home_ma_butt.jpg">
+	<a href="http://212.72.1.167:8500/MyAccount/login_omantel_plain_arb.jsp" class="greentext" >My Account </a> -->
+<td valign="middle" align="center" width="129px">
+<div class="horizontalcssmenu">
+<ul id="cssmenu1">
+<li><a style="height: 23px; background-image:url(/wpresources/Images/home_top_arrow.gif);background-repeat:no-repeat " href="https://www.omantel.om/en/PaymentGateway.aspx#"><b>Login</b><span class="arrowdiv">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="arrowdiv">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="arrowdiv">&nbsp;&nbsp;&nbsp;&nbsp;</span></a> 
+   <ul style="top: 26px;">
+    <li><a style="height: 23px;" href="https://www.omantel.om/mi_login.aspx">My internet Account</a></li> 
+       <li><a style="height: 23px;" href="https://mail.omantel.net.om/exchweb/bin/auth/owalogon.asp?url=https://mail.omantel.net.om/exchange&amp;reason=0">Check your Emails</a></li>
+
+    </ul>
+</li>
+</ul>
+
+</div>
+
+</td>
+<td width="9px" align="right"><img src="./Online Services - Omantel_files/divider.gif"> </td>
+<td valign="middle" align="center" height="23px"> 
+<table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td valign="middle"><img src="./Online Services - Omantel_files/s_left.gif">
+</td><td class="newtextboxstyleCenter" valign="middle">
+<input tabindex="4" style="border:0;width:125px;height:21px;text-align:center" type="text" id="txtSearch" onkeypress="clickSearch(event,&#39;txtSearch&#39;,&#39;English&#39;)" value="Search this site" class="newtextboxstyleCenter" onclick="blankSearchbox();">
+</td><td valign="top"><img src="./Online Services - Omantel_files/s_right.gif"></td></tr></tbody></table>
+</td>
+<td valign="middle" align="center">
+<!--<img style="cursor:pointer" height="23px" tabindex="2" id="imgSearch"  onclick="ValidateSearch('txtSearch','English')" src="/wpresources/images/go_butt.gif">-->
+<input type="image" name="ctl00$PlaceHolderTopNavBar$ibtnGo" id="ctl00_PlaceHolderTopNavBar_ibtnGo" src="./Online Services - Omantel_files/go_butt.gif" alt="Go for search" onclick="return ValidateSearch(&#39;txtSearch&#39;,&#39;English&#39;);" style="border-width:0px;">
+</td><td><img src="./Online Services - Omantel_files/divider.gif"> </td>
+<td valign="middle" style="height: 23px" width="50px" align="center"> 
+<a href="https://www.omantel.om/ar/homen.aspx" class="greentext" style="font-size: 12px;">عربي</a></td></tr>
+</tbody></table>
+</div>
+									 </td></tr>
+
+									<tr> <td align="right" class="userprofileitem"><span style="font-size:10px">Text resize:</span>
+									<a href="https://www.omantel.om/en/PaymentGateway.aspx#" class="increaseFont">
+									<img height="16" width="16" border="0" src="./Online Services - Omantel_files/zoom_in.png"></a>
+									<a href="https://www.omantel.om/en/PaymentGateway.aspx#" class="decreaseFont">
+									<img height="16" width="16" border="0" src="./Online Services - Omantel_files/zoom_out.png"></a>
+ 									</td></tr>
+ 									
+ 									
+ 									<tr align="right">
+                                                                                                <td valign="middle">
+                                                                                                    <table>
+                                                                                                        <tbody>
+                                                                                                            <tr>
+                                                                                                                <td style="white-space: nowrap;">
+                                                                                                                    <a href="http://www.omantel.om/OmanWebLib/aboutus/omantel_sustainability.aspx" style="color:rgb(38,97,173); text-decoration: none ; font-family: Arial;font-size: 12px;padding-left: 2px;padding-right: 2px;padding-top:3px;padding-bottom: 2px;font-weight: bold;">Sustainability 
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    </a>
+                                                                                                                </td>
+                                                                                                                <td style="width: 0px;">
+                                                                                                                </td>
+                                                                                                                <td>
+                                                                                                                    <img src="./Online Services - Omantel_files/divider(1).gif" alt="">
+                                                                                                                </td>
+                                                                                                                <td style="width: 0px;">
+                                                                                                                </td>
+                                                                                                                <td style="white-space: nowrap;">
+                                                                                                                    <a href="http://www.omantel.om/OmanWebLib/Careers/Vacancies.aspx" style="color:rgb(38,97,173); text-decoration: none ; font-family: Arial;font-size: 12px;padding-left: 2px;padding-right: 2px;padding-top:3px;padding-bottom: 2px;font-weight: bold;">Careers 
+                                                                                                                    
+                                                                                                                    
+                                                                                                                    </a>
+                                                                                                                    <img src="./Online Services - Omantel_files/new_en.gif">
+                                                                                                                </td>
+                                                                                                                <td style="width: 0px;">
+                                                                                                                </td>
+                                                                                                                <td>
+                                                                                                                    <img src="./Online Services - Omantel_files/divider(1).gif" alt="">
+                                                                                                                </td>
+                                                                                                                <td style="width: 0px;">
+                                                                                                                </td>
+                                                                                                                <td style="white-space: nowrap;">
+                                                                                                                    <a href="https://tenders.omantel.om/" style="color:rgb(38,97,173); text-decoration: none ; font-family: Arial;font-size: 12px;padding-left: 2px;padding-right: 2px;padding-top:3px;padding-bottom: 2px;font-weight: bold;">
+                                                                                                                        <b>Tenders 
+                                                                                                                        
+                                                                                                                        
+                                                                                                                        </b>
+                                                                                                                    </a>
+                                                                                                                    
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                        </tbody>
+                                                                                                    </table>
+                                                                                                </td>
+                                                                                            </tr>
+
+ 									
+ 									
+									   <tr><td id="HBN100" valign="bottom" align="center" height="27">
+																
+													<div id="ctl00_PlaceHolderTopNavBar_PlaceHolderHorizontalNav_TopNavigationMenu" class="zz1_TopNavigationMenu_5">
+	<img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><span class="om-topnava zz1_TopNavigationMenu_4"><a accesskey="1" class="zz1_TopNavigationMenu_1 om-topnava zz1_TopNavigationMenu_3" href="http://www.omantel.om/default.aspx" style="border-style:none;font-size:1em;">Main</a></span> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><img src="./Online Services - Omantel_files/divider.gif" alt="" style="border-width:0px;"> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><span class="om-topnava zz1_TopNavigationMenu_4"><a class="zz1_TopNavigationMenu_1 om-topnava zz1_TopNavigationMenu_3" href="http://www.omantel.om/omanweblib/individual/default.aspx" style="border-style:none;font-size:1em;">Home &amp; Personal</a></span> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><img src="./Online Services - Omantel_files/divider.gif" alt="" style="border-width:0px;"> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><span class="om-topnava zz1_TopNavigationMenu_4"><a class="zz1_TopNavigationMenu_1 om-topnava zz1_TopNavigationMenu_3" href="http://www.omantel.om/omanweblib/business/default.aspx" style="border-style:none;font-size:1em;">Business</a></span> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><img src="./Online Services - Omantel_files/divider.gif" alt="" style="border-width:0px;"> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><span class="om-topnava zz1_TopNavigationMenu_4"><a class="zz1_TopNavigationMenu_1 om-topnava zz1_TopNavigationMenu_3" href="http://www.omantel.om/omanweblib/travellers/default.aspx" style="border-style:none;font-size:1em;">Travellers</a></span> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><img src="./Online Services - Omantel_files/divider.gif" alt="" style="border-width:0px;"> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><span class="om-topnava zz1_TopNavigationMenu_4"><a class="zz1_TopNavigationMenu_1 om-topnava zz1_TopNavigationMenu_3" href="https://shop.omantel.om/" style="border-style:none;font-size:1em;">E-Shop</a></span> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><img src="./Online Services - Omantel_files/divider.gif" alt="" style="border-width:0px;"> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><span title="Online Services" class="om-topnava zz1_TopNavigationMenu_4 om-topnavselected zz1_TopNavigationMenu_10"><img src="./Online Services - Omantel_files/online_butt.jpg" alt="Online Services" style="border-width:0px;"> <a class="zz1_TopNavigationMenu_1 om-topnava zz1_TopNavigationMenu_3 om-topnavselected zz1_TopNavigationMenu_9" href="https://www.omantel.om/en/homen.aspx" style="border-style:none;font-size:1em;"></a></span> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><img src="./Online Services - Omantel_files/divider.gif" alt="" style="border-width:0px;"> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><span class="om-topnava zz1_TopNavigationMenu_4"><a class="zz1_TopNavigationMenu_1 om-topnava zz1_TopNavigationMenu_3" href="http://www.omantel.om/omanweblib/AboutUs/default.aspx" style="border-style:none;font-size:1em;">About Us</a></span> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><img src="./Online Services - Omantel_files/divider.gif" alt="" style="border-width:0px;"> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><span class="om-topnava zz1_TopNavigationMenu_4"><a class="zz1_TopNavigationMenu_1 om-topnava zz1_TopNavigationMenu_3" href="http://www.omantel.om/OmanWebLib/Investors/default.aspx" style="border-style:none;font-size:1em;">Investors</a></span> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><img src="./Online Services - Omantel_files/divider.gif" alt="" style="border-width:0px;"> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;"><span class="om-topnava zz1_TopNavigationMenu_4"><a class="zz1_TopNavigationMenu_1 om-topnava zz1_TopNavigationMenu_3" href="http://www.omantel.om/omanweblib/customersupport/default.aspx" style="border-style:none;font-size:1em;">Customer Care</a></span> <img src="./Online Services - Omantel_files/WebResource.axd" alt="" style="height:1px;width:0px;border-width:0px;">
+</div>
+													
+															
+														
+																
+															</td>			
+														   </tr>
+														     
+
+														  </tbody></table>
+														
+                                                    </td>
+                                                    
+                                                    
+                                                </tr>
+                               </tbody></table></td>
+                            <td width="8px" style="background-image: url(&#39;/wpresources/images/right-border_en.jpg&#39;);
+                                background-repeat: repeat-y">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        
+                    </tbody></table>
+                </td>
+            </tr>
+            <tr width="100%" height="25px">
+                                                <td valign="middle" align="left">
+                                                <table width="100%" align="left">
+                                                <tbody><tr align="left">
+                                                <td width="100%" align="left">
+<table width="900" align="left" border="0" cellspacing="0" cellpadding="0"><tbody><tr><td><table width="900" align="left" border="0" cellspacing="0" cellpadding="0"><tbody><tr width="100%"><td align="left" width="500" class="greentextLoginDetailWelcome"><span id="ctl00_LoginDetail1_LblUserName" class="logindetailStyle">Welcome OMAR NABHAN AL MAAMARI</span></td><td width="250" align="right" class="greentextLoginDetail"><span id="LblLastLoginTime" class="logindetailStyle">Last login time : Mar 15, 2016 01:20 PM</span>&nbsp;&nbsp;</td><td valign="middle" width="100" align="center" class="lnklogout"><a id="ctl00_LoginDetail1_LnkLogout" href="javascript:__doPostBack(&#39;ctl00$LoginDetail1$LnkLogout&#39;,&#39;&#39;)">Log out</a></td></tr></tbody></table></td></tr><tr><td><table width="900" align="left" border="0" cellspacing="0" cellpadding="0"><tbody><tr width="100%"><td colspan="3">&nbsp;</td></tr><tr width="100%"><td align="left" width="500"></td><td width="250" align="right"></td><td valign="middle" class="newbuttonMenu" width="120" align="right"><a href="https://www.omantel.om/en/Homen.aspx" style="text-decoration:none;color: #ffffff;">Back to Home</a></td></tr></tbody></table></td></tr></tbody></table>
+                                                </td>
+                                                </tr>
+                                                </tbody></table>
+                                                </td>
+                                            </tr>
+            <tr>
+                <td>
+                    <table style="margin:0px;" cellpadding="0" cellspacing="0" border="0" height="98%" width="100%">
+                        <tbody><tr>
+                            <td width="6px" style="background-image: url(&#39;/wpresources/images/left-border_en.jpg&#39;);
+                                background-repeat: repeat-y">
+                                &nbsp;</td>
+                            <td>
+                                <table class="ms-main" cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
+                                   <tbody><tr style="display: none">
+                                                <td class="ms-globalTitleArea">
+                                                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                        <tbody><tr>
+                                                            <td class="ms-sitetitle" width="100%">
+                                                                
+									<h1 class="ms-sitetitle">
+										   <a id="ctl00_PlaceHolderSiteName_onetidProjectPropertyTitle" href="https://www.omantel.om/">
+														 MergedOnlineServices
+											   </a>
+									  </h1>
+								  
+                                                            </td>
+                                                            <td valign="top">
+                                                                
+	<table toplevel="" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr>
+		<td valign="top"><div webpartid="00000000-0000-0000-0000-000000000000" haspers="true" id="WebPartWPQ1" width="100%" onlyformepart="true" allowdelete="false" style=""><div id="SRSB"> <div>
+			<input name="ctl00$PlaceHolderSearchArea$ctl01$ctl00" type="hidden" id="ctl00_PlaceHolderSearchArea_ctl01_ctl00" value="https://www.omantel.om"><table class="ms-sbtable ms-sbtable-ex" border="0">
+				<tbody><tr class="ms-sbrow">
+					<td class="ms-sbscopes ms-sbcell"><select name="ctl00$PlaceHolderSearchArea$ctl01$SBScopesDDL" id="ctl00_PlaceHolderSearchArea_ctl01_SBScopesDDL" title="Search Scope" class="ms-sbscopes">
+						<option selected="selected" value="This Site">This Site: MergedOnlineServices</option>
+
+					</select></td><td class="ms-sbcell"><input name="ctl00$PlaceHolderSearchArea$ctl01$S3031AEBB_InputKeywords" type="text" maxlength="200" id="ctl00_PlaceHolderSearchArea_ctl01_S3031AEBB_InputKeywords" accesskey="S" title="Enter search words" class="ms-sbplain" alt="Enter search words" onkeypress="javascript:return S3031AEBB_OSBEK(event);" style="width:170px;"></td><td class="ms-sbgo ms-sbcell"><a id="ctl00_PlaceHolderSearchArea_ctl01_S3031AEBB_go" title="Go Search" href="javascript:S3031AEBB_Submit()"><img title="Go Search" onmouseover="this.src=&#39;/_layouts/images/gosearch.gif&#39;" onmouseout="this.src=&#39;/_layouts/images/gosearch.gif&#39;" alt="Go Search" src="./Online Services - Omantel_files/gosearch.gif" style="border-width:0px;"></a></td><td class="ms-sbLastcell"></td>
+				</tr>
+			</tbody></table>
+		</div></div></div></td>
+	</tr>
+</tbody></table>
+
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                </td>
+                                            </tr>                                           
+                                            
+		
+
+	
+                                            
+	
+	
+                                            <tr height="100%">
+                                                <td>
+                                                    <table width="100%" height="100%" cellspacing="0" cellpadding="0">
+                                                        <tbody><tr style="display: none">
+                                                            <td style="display: none" class="ms-titlearealeft" id="TitleAreaImageCell" valign="middle" nowrap="">
+                                                                <div style="height: 100%" class="ms-titleareaframe">
+                                                                    
+                                                                </div>
+                                                            </td>
+                                                            <td style="display: none" class="ms-titleareaframe" id="TitleAreaFrameClass">
+                                                                		
+	  
+                                                            </td>
+                                                            <td valign="top" id="onetidPageTitleAreaFrame" class="ms-pagetitleareaframe" nowrap="">
+                                                                <table id="onetidPageTitleAreaTable" cellpadding="0" cellspacing="0" width="100%" border="0">
+                                                                    <tbody><tr>
+                                                                        <td valign="top" class="ms-titlearea">
+                                                                            
+			<span id="ctl00_PlaceHolderTitleBreadcrumb_ContentMap"><span><a class="ms-sitemapdirectional" href="https://www.omantel.om/">MergedOnlineServices</a></span><span> &gt; </span><span><a class="ms-sitemapdirectional" href="https://www.omantel.om/en/Forms/AllItems.aspx">en</a></span><span> &gt; </span><span class="ms-sitemapdirectional">Paymentgateway</span></span> &nbsp;
+		 
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td height="100%" valign="top" id="onetidPageTitle" class="ms-pagetitle">
+                                                                            <h2 class="ms-pagetitle">
+                                                                                
+	
+
+                                                                            </h2>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody></table>
+                                                            </td>
+                                                            <td class="ms-titlearearight">
+                                                                
+                                                                
+<div class="ms-titleareaframe" style="height:100%"><img src="./Online Services - Omantel_files/blank.gif" width="1" height="1" alt=""></div>
+
+                                                            </td>
+                                                        </tr>
+                                                        
+                                                        <tr>
+                                                            <td style="display: none" class="ms-leftareacell" valign="top" height="100%" id="LeftNavigationAreaCell">
+                                                                <table class="ms-nav" width="100%" height="100%" cellpadding="0" cellspacing="0">
+                                                                    <tbody><tr>
+                                                                        <td>
+                                                                            <table height="100%" class="ms-navframe" cellpadding="0" cellspacing="0" border="0">
+                                                                                <tbody><tr valign="top">
+                                                                                    <td width="4px">
+                                                                                        <img src="./Online Services - Omantel_files/blank.gif" width="4" height="1" alt=""></td>
+                                                                                    <td valign="top" width="100%">
+                                                                                        
+                                                                                        
+                                                                                        
+                                                                                        
+                                                                                        
+
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td colspan="2">
+                                                                                        
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody></table>
+                                                                        </td>
+                                                                        <td>
+                                                                            
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody></table>
+                                                            </td>
+                                                            <td style="display: none">
+                                                                
+<div class="ms-pagemargin"><img src="./Online Services - Omantel_files/blank.gif" width="10" height="1" alt=""></div>
+
+                                                            </td>
+                                                            <td class="ms-bodyareacell" valign="top">
+                                                                <placeholder id="ctl00_MSO_ContentDiv">
+		<table id="MSO_ContentTable" width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+			 <td valign="top" height="100%" style="padding:0 0 0 0">
+			   <a name="mainContent"></a>
+			   <table cellpadding="0" cellspacing="0" width="100%" height="500px" style="background-color:white"><tbody><tr><td valign="top">
+				
+	
+
+				
+<table width="100%" cellpadding="0" cellspacing="0">
+		  <tbody><tr>
+		  <td valign="top" colspan="3" align="left">		   
+		  <table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td>&nbsp;</td></tr></tbody></table><div id="divMain"><table id="Menutbl" border="0" cellpadding="0" cellspacing="0"><tbody><tr height="33" border="0" cellpadding="0" cellspacing="0"><td border="0" cellpadding="0" cellspacing="0" width="17" height="33" id="1_left" class="relatedlinka"></td><td border="0" cellpadding="0" cellspacing="0" class="relatedlink" id="1_center" onmouseout="deselectedCss(1,true);" onmouseover="selectedCss(1,true);"><span id="ctl00_FlyoutMenu1_1" class="relatedlinkText" onmouseout="deselectedCss(1,true)" onmouseover="WebForm_DoCallback(&#39;ctl00$FlyoutMenu1&#39;,1,showTable,null,null,false)">Account Management</span></td><td border="0" cellpadding="0" cellspacing="0" width="17" height="33" id="1_right" class="relatedlinkb"></td><td>&nbsp;</td><td border="0" cellpadding="0" cellspacing="0" width="17" height="33" id="2_left" class="relatedlinka"></td><td border="0" cellpadding="0" cellspacing="0" class="relatedlinkUnderline" id="2_center" onmouseout="deselectedCss(2,true);" onmouseover="selectedCss(2,true);"><span id="ctl00_FlyoutMenu1_2" class="relatedlinkText" onmouseout="deselectedCss(2,true)" onmouseover="WebForm_DoCallback(&#39;ctl00$FlyoutMenu1&#39;,2,showTable,null,null,false)">Mobile Services</span></td><td border="0" cellpadding="0" cellspacing="0" width="17" height="33" id="2_right" class="relatedlinkb"></td><td>&nbsp;</td><td border="0" cellpadding="0" cellspacing="0" width="17" height="33" id="3_left" class="relatedlinka"></td><td border="0" cellpadding="0" cellspacing="0" class="relatedlink" id="3_center" onmouseout="deselectedCss(3,true);" onmouseover="selectedCss(3,true);"><span id="ctl00_FlyoutMenu1_3" class="relatedlinkText" onmouseout="deselectedCss(3,true)" onmouseover="WebForm_DoCallback(&#39;ctl00$FlyoutMenu1&#39;,3,showTable,null,null,false)">Fixed Line Services</span></td><td border="0" cellpadding="0" cellspacing="0" width="17" height="33" id="3_right" class="relatedlinkb"></td><td>&nbsp;</td><td border="0" cellpadding="0" cellspacing="0" width="17" height="33" id="4_left" class="relatedlinka"></td><td border="0" cellpadding="0" cellspacing="0" class="relatedlink" id="4_center" onmouseout="deselectedCss(4,true);" onmouseover="selectedCss(4,true);"><span id="ctl00_FlyoutMenu1_4" class="relatedlinkText" onmouseout="deselectedCss(4,true)" onmouseover="WebForm_DoCallback(&#39;ctl00$FlyoutMenu1&#39;,4,showTable,null,null,false)">Internet Services</span></td><td border="0" cellpadding="0" cellspacing="0" width="17" height="33" id="4_right" class="relatedlinkb"></td><td>&nbsp;</td><td border="0" cellpadding="0" cellspacing="0" width="17" height="33" id="1502_left" class="relatedlinka"></td><td border="0" cellpadding="0" cellspacing="0" class="relatedlink" id="1502_center" onmouseout="deselectedCss(1502,true);" onmouseover="selectedCss(1502,true);"><span id="ctl00_FlyoutMenu1_1502" class="relatedlinkText" onmouseout="deselectedCss(1502,true)" onmouseover="WebForm_DoCallback(&#39;ctl00$FlyoutMenu1&#39;,1502,showTable,null,null,false)">Makasib</span></td><td border="0" cellpadding="0" cellspacing="0" width="17" height="33" id="1502_right" class="relatedlinkb"></td><td>&nbsp;</td></tr></tbody></table><div id="div4" class="divEnIndividual"><table cellspacing="0" cellpadding="0" margin="0" width="100%"><tbody><tr><td></td><td width="100%"><div width="100%" id="div1" class="balloonstyle" style="z-index: 1;"></div></td></tr></tbody></table></div></div>				
+				</td>		   
+		  </tr>
+		 <tr>
+		  <td valign="top" colspan="3" align="left">		   
+		  &nbsp;
+				</td>		   
+		  </tr>
+		  </tbody></table>
+				
+		<table cellpadding="2" cellspacing="0" border="0" width="100%">
+				<tbody><tr>
+					<td id="_invisibleIfEmpty" name="_invisibleIfEmpty" valign="top" style="display: none;"> 
+					 </td>
+
+					<td id="_invisibleIfEmpty" name="_invisibleIfEmpty" valign="top" width="100%"> 
+					<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tbody><tr>
+		<td id="MSOZoneCell_WebPartctl00_m_g_7ba67945_5b12_40bf_a553_f3ad3f0818ee" valign="top"><table toplevel="" border="0" cellpadding="0" cellspacing="0" width="100%">
+			<tbody><tr>
+				<td valign="top"><div webpartid="7ba67945-5b12-40bf-a553-f3ad3f0818ee" haspers="false" id="WebPartctl00_m_g_7ba67945_5b12_40bf_a553_f3ad3f0818ee" width="100%" class="ms-WPBody" allowdelete="false" allowexport="false" style=""><iframe frameborder="0" scrolling="no" src="./Online Services - Omantel_files/vpcpay.html" width="1010" height="780"></iframe></div></td>
+			</tr>
+		</tbody></table></td>
+	</tr>
+</tbody></table> </td>
+
+					<td id="_invisibleIfEmpty" name="_invisibleIfEmpty" valign="top" style="padding-right: 10px; display: none;"> 
+					 </td>
+				</tr>
+				<script language="javascript">if(typeof(MSOLayout_MakeInvisibleIfEmpty) == "function") {MSOLayout_MakeInvisibleIfEmpty();}</script>
+		</tbody></table>
+				
+				</td></tr></tbody></table>
+			 </td>
+		  </tr>
+		</tbody></table>
+		</placeholder>
+                                                            </td>
+                                                            <td class="ms-rightareacell" style="display: none">
+                                                                
+	<div height="100%" class="ms-pagemargin"><img src="./Online Services - Omantel_files/blank.gif" width="10" height="1" alt=""></div>
+
+                                                            </td>
+                                                        </tr>
+                                                         <tr height="50" align="right">
+															<td colspan="3">
+																<input type="text" name="__spDummyText1" style="display: none;" size="1"><input type="text" name="__spDummyText2" style="display: none;" size="1"><table width="100%" cellspacing="0" cellpadding="0">
+																
+			<tbody><tr>
+<td style="border-bottom-style:inset;border-bottom-width:1px;border-bottom-color:#f1f1f1 ">
+&nbsp;
+</td>
+</tr>													
+<tr width="900" height="50">
+<td>
+<table border="0" width="900" cellspacing="0" cellpadding="0">
+  <!--  <tr>
+        <td width="19" height="172" rowspan="3">
+            <img border="0" src="/wpresources/Images/footer/footer_bg_left.gif" width="19" height="172">
+        </td>
+        <td colspan="7" width="0" height="8">
+            <img border="0" src="/wpresources/Images/footer/transparent.gif" width="1" height="2">
+        </td>
+        <td width="17" height="172" rowspan="3">
+            <img border="0" src="/wpresources/Images/footer/footer_bg_right.gif" width="17" height="172">
+        </td>
+    </tr>
+    <tr>
+        <td width="300" colspan="2" valign="top" style="height: 10px">
+            <img border="0" src="/wpresources/Images/footer/arrow_orange2.gif" width="13" height="13"
+                align="absmiddle">
+            <font face="Helvetica" style="font-size: 10pt; font-weight: 700" color="#0B4CA2">Information
+                Center</font>
+        </td>
+        <td width="1" rowspan="2" bgcolor="#D6EdFb" height="10">
+            <img border="0" src="/wpresources/Images/footer/footer_px_1.gif" width="1" height="1">
+        </td>
+        <td width="200" valign="top" style="height: 10px">
+            <p style="margin-left: 10px">
+                <img border="0" src="/wpresources/Images/footer/arrow_orange2.gif" width="13" height="13"
+                    align="absmiddle">
+                <font face="Helvetica" style="font-size: 10pt; font-weight: 700" color="#0B4CA2">News</font>
+        </td>
+        <td rowspan="2" bgcolor="#D6EdFb" width="1" height="10">
+            <img border="0" src="/wpresources/Images/footer/footer_px_1.gif" width="1" height="1">
+        </td>
+        <td colspan="2" valign="top" style="height: 10px">
+            <p style="margin-left: 10px">
+                <img border="0" src="/wpresources/Images/footer/arrow_orange2.gif" width="13" height="13"
+                    align="absmiddle">
+                <font face="Helvetica" style="font-size: 10pt; font-weight: 700" color="#0B4CA2">Contact
+                    Us</font>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <p style="margin-left: 15px; line-height: 120%; margin-bottom: 0px">
+                <font face="Verdana" style="font-size: 8pt" color="#0B4CA2">- Branch Locations<br>
+                    - FAQ's<br>
+                    - Switch and keep your number<br>
+                    - Downloads<br>
+                    - Awareness<br>
+                    - Alerts</font>
+        </td>
+        <td valign="top">
+            <p style="line-height: 120%">
+                <font face="Verdana" style="font-size: 8pt" color="#0B4CA2">- Easy Learning<br>
+                    - Online Service Tutorial</font>
+        </td>
+        <td valign="top" width="200">
+            &nbsp;
+        </td>
+        <td valign="top">
+            <p style="margin-left: 25px; line-height: 120%">
+                <font face="Verdana" style="font-size: 8pt" color="#0B4CA2">- Directory Information
+                    -------------------
+                    <br>
+                    - Mobile Help Desk ------------------------<br>
+                    - Telephone Faults and Complaints ------<br>
+                    - Internet Help Desk ----------------------<br>
+                    - Payphone Faults &amp; Complaints ---------</font>
+        </td>
+        <td valign="top">
+            <p style="line-height: 120%">
+                <font face="Verdana" style="font-size: 8pt" color="#0B4CA2">1318<br>
+                    1234<br>
+                    1300<br>
+                    1313<br>
+                    1307 </font>
+        </td>
+    </tr>
+</table>
+
+
+</td>
+</tr> 
+
+<tr>
+<td colspan="2" style="border-bottom-style:inset;border-bottom-width:1px;border-bottom-color:#f1f1f1 ">
+&nbsp;
+</td>
+</tr>-->		
+																
+																
+																
+																
+																
+<tbody><tr>
+<td class="footerbar"><br>
+<span>Oman Telecommunications Company © 2013</span>
+</td>
+</tr>  <tr>
+															        <td class="footerbar"> 
+																	<a href="http://www.omantel.om/Omanweblib/privacy.aspx" style=" color:#2661ad;">
+																	Privacy Policy </a> • <a href="http://www.omantel.om/Omanweblib/Copyrights.aspx" style="color:#2661ad;">Copyrights</a> •
+																	 <a href="http://www.omantel.om/OmanWebLib/customersupport/CustomerAgreement.aspx?LinkID=700&amp;MenuId=718" style="color:#2661ad;">																	 Standard Customer Agreement</a>
+																	<font color="#999999">|</font><a href="http://www.omantel.om/default.aspx" style="color:#999999; "> Home </a> <font color="#999999">|</font>
+																	 <a href="http://www.omantel.om/Omanweblib/careers/Vacancies.aspx?LinkID=5&amp;MenuId=563" style=" color:#999999; ">Careers </a>
+																	  <font color="#999999">|</font>																	
+																	 <a href="http://www.omantel.om/Omanweblib/Contact%20Us/default.aspx" style="color:#999999;">Contact Us </a>
+																	  <font color="#999999">|</font>
+																	 <a href="http://www.omantel.om/Omanweblib/Sitemap.aspx" style="color:#999999;">SiteMap </a> 
+																	</td>
+															       																				       	</tr>														      
+															    </tbody></table>
+															</td>
+														</tr>
+                                                    
+                                            
+		
+  
+                                            
+                                            
+                                            
+                                            
+                                            
+	<style type="text/css">
+	Div.ms-titleareaframe {
+	height: 100%;
+	}
+	.ms-pagetitleareaframe table {
+	background: none;
+	}
+  </style>
+
+                                            </tbody></table>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                            <td width="8px" style="background-image: url(&#39;/wpresources/images/right-border_en.jpg&#39;);
+                                background-repeat: repeat-y">
+                                &nbsp;</td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+        </tbody></table>
+         </td>         
+        </tr>    
+
+        </tbody></table>
+        <table cellpadding="0" cellspacing="0" align="center" style="vertical-align: top">
+            <tbody><tr>
+                <td id="siteactiontd" class="ms-siteactionsmenu">
+
+                    
+                
+       
+        
+   
+        </td>
+        </tr>
+       
+        </tbody></table>
+ <br>
+
+    
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBgKh5d2IBAKSoa2BBAKI0uLTAwKpn5bCCwKN/6CDBgLNrvW5AyLwRwA9c4hINZbaUSgw9eNVnIaD">
+</div>
+<script src="./Online Services - Omantel_files/WebResource(1).axd" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';//]]>
+</script>
+<script type="text/javascript" language="JavaScript" defer="">
+<!--
+function S3031AEBB_Submit() {GoSearch(null,'ctl00_PlaceHolderSearchArea_ctl01_S3031AEBB_InputKeywords',null,true,true,'ctl00_PlaceHolderSearchArea_ctl01_SBScopesDDL','ctl00_PlaceHolderSearchArea_ctl01_ctl00',null,null,'https:\u002f\u002fwww.omantel.om\u002f_layouts\u002fOSSSearchResults.aspx', 'This Site','This List', 'This Folder', 'Related Sites', '\u002f_layouts\u002fOSSSearchResults.aspx');}
+// -->
+</script><script type="text/javascript" language="JavaScript">
+// append an onload event handler
+var S3031AEBB__onload= document.body.onload;
+if(typeof document.body.onload == 'function')
+{
+ document.body.onload = function()
+ {
+S3031AEBB__onload();        
+  document.getElementById('ctl00_PlaceHolderSearchArea_ctl01_S3031AEBB_InputKeywords').name = 'InputKeywords';
+ }
+}
+else
+{
+ document.body.onload = function()
+ {
+  eval(S3031AEBB__onload);        
+  document.getElementById('ctl00_PlaceHolderSearchArea_ctl01_S3031AEBB_InputKeywords').name = 'InputKeywords';
+ }
+}
+
+function S3031AEBB_OSBEK(event1) { 
+if((event1.which == 10) || (event1.which == 13))
+{   
+S3031AEBB_Submit();
+}
+}
+// -->
+</script>
+<script type="text/javascript">
+//<![CDATA[
+SetTimer('10','1.5','English','ctl00_LoginDetail1_ClearSession')
+var callBackFrameUrl='/WebResource.axd?d=R6S1sElGF9PVRkCsvQyzBA2&t=633446489541936694';
+WebForm_InitCallback();//]]>
+</script>
+</form>
+
+
+<div id="sconnect-is-installed" style="display: none;"></div></body></html>

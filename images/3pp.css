@@ -1,0 +1,404 @@
+/* Copyright 2005 Dialect Solutions Holdings Pty Ltd. All rights reserved. */
+/* Three Party Page style definitions */
+
+input {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	background: #FDE9EA;
+}
+
+.heading {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+
+.headingBold {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.headingTable {
+	font-weight: bold;
+	background: #31659C;
+	border: 0 none;
+}
+
+.formHeaderText {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 13px;
+    font-weight: bold;
+    color: #999999;
+}
+
+.formText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+.acquirerText {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.acquirerTextBold {
+	font-weight: bold;
+}
+
+/* ******************************** MENU (HEADER) ************************************* */
+.3PP_body {
+	margin: 0% 10% 10% 10%;
+	background-color: #FFFFFF;
+	font-family: Arial;
+	font-size: 10px;
+	color: Black;
+	}
+
+.menu_body {
+	margin:0px;
+	background-color: #FFFFCC;
+	}
+
+.menu_header {
+	}
+
+.menu_header_table {
+        background-image: url(../images/background/top_bg.gif);
+	width: 100%;
+        height: 99px;
+	padding: 0px;
+	}
+
+
+.menu_header_left_left {
+display: none;	 
+width: 20px; 
+margin:0px; 
+}
+
+
+.menu_header_left { width: 20px; margin:0px; vertical-align: middle;}
+.menu_header_centre { display: none; width: 20px; margin:0px;}
+.menu_header_right {  display: none;width: 20px; margin:0px;}
+.menu_header_right_right { display: none;width: 0px; margin:0px;
+
+
+}
+
+
+
+
+.bodyHeadSpace {
+    height: 2px;
+    width: 100%;
+	background-color: #FFFFFF;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 10px;
+
+    }
+
+
+.merchTable {
+    height: 35px;
+    width: 100%;
+	background-color: #C1B1CF;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+    }
+
+
+
+.merchCol1 { width: 0%;}
+.merchSpace1 { width: 8px; }
+.merchCol2 { width: 10%; font-weight: Bold; }
+.merchSpace2 { width: 120px; }
+.merchCol3 { width: 80%; }
+.merchSpace3 { width: 10px;}
+.merchCol4 { width: 10%; }
+.merchSpace4 {
+	width: 110px;
+	font-weight: Bold;
+    }
+.merchCol5 { width: 0%;}
+.merchSpace5 { width: 8px; }
+
+
+
+/*
+.payHeadTable {
+	background-color: #D08080;
+	width: 100%;
+	border: medium outset #66CCFF;
+       
+	}
+	font-weight: Bold;
+
+*/
+.payHeadTable {
+        background-image: url(../images/background/select.gif);
+	width: 100%;
+	height: 0px;
+
+	}
+
+
+
+
+.payHeadRow 
+
+{
+
+}
+
+.payHeadImage 
+
+{
+
+display: none;
+}
+
+
+
+.payHeadLabel {
+    width: 80%;
+	font-family: Arial;
+	font-size: 12px;
+	color: #C54140;
+	font-weight: Bold;
+height: 50px;
+
+
+	}
+.payHeadImage2 {
+	background-image: url(../images/background/how_to_pay_middle.gif);
+    width: 100%;
+	}
+
+
+
+.payHeadLabel2 {
+    width: 100%;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-weight: Bold;
+	}
+
+
+.payHeadWidth {
+    height: 0px;
+    width: 350px;
+    background-color: black;
+	}
+
+
+.payHeadWidthNoMargin {
+    height: 0px;
+    width: 342px;
+	}
+
+
+
+.blockHeadSpace {
+    height: 5px;
+    width: 100%;
+	background-color: #FFFFFF;
+    }
+
+
+.bodyFootSpace {
+    height: 20px;
+    width: 100%;
+	background-color: #653393;
+    }
+
+.Copyright {
+	display: none;
+    height: 20px;
+    width: 100%;
+	background-color: #E50100;
+    }
+
+.legal {
+    display: none;
+	font-family: arial;
+	font-size: 10px;
+	background-color: #E50100;
+	color: #FFFFFF;
+}
+
+
+.powered_by {
+	
+    height: 10px;
+    width: 100%;
+	background-color: #FFFFFF;
+    }
+
+
+.powered_by_inner {
+	display: none;
+    width: 80%;
+    }
+.pbFootSpace {
+    height: 10px;
+    width: 100%;
+	background-color: #FFFFFF;
+    }
+
+
+
+
+.cancelTable {
+    height: 5px;
+    width: 100%;
+	background-color: #E8EBEA;
+    }
+
+.sslHeadTable {
+	background-color: #FFdeFF;
+	width: 100%;
+	}
+
+
+.label {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.topSeparator {
+    background-color: #F5F5F5;
+	background-image: url(../images/background/virt.gif);
+    height: 2px;
+	}
+
+.detailLeftCol {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+    background-color: #E9E9E9;
+
+}
+
+.detailCardName {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+
+}
+
+
+.detailSeparator {
+    background-color: #F5F5F5;
+	background-image: url(../images/background/virt.gif);
+    width: 20px;
+	}
+
+.detailSeparatorSpace {
+    height: 20px;
+    width: 20px;
+	}
+
+
+.detailRightCol {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #006600;
+	background-color: #F5F5F5;
+
+    }
+.cardNo {
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+    }
+.monthYear {
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+    }
+    
+.amount {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF0000;
+	letter-spacing: 0.1em;
+    }
+    
+.bottomSeparator {
+    background-color: #F5F5F5;
+	background-image: url(../images/background/virt.gif);
+    height: 1px;
+	}
+.agreementSeparator {
+    height: 5px;
+    width: 100%;
+	background-color: #E0E0E0;
+    }
+
+.agreement {
+	font-size: 14px;
+	font-weight: normal;
+	color: #003300;
+height: 10px;
+
+
+    }
+
+.processingTable {
+    width: 100%;
+    height: 150px;
+	background-color: #FFFFFF;
+    }
+
+.transResult {
+	font-weight: bold;
+    }
+
+.img_lfw { width: 16px; height: 22px; }
+
+.img_pay { width: 42px; height: 42px; background-color: #DBEFFB; border: 50px; }
+
+.img_cross { width: 49px; height: 49px; }
+.img_ { width: 16px; height: 22px; }
+
+.errorHeadTable {
+	width: 100%;
+	border-color: #66CCFF #006699 #006699 #33CCFF;
+	border-style: solid;
+	border-width: medium;
+	background-image: url(../images/background/errorHead_bg.gif);
+	}
+.errorHeadRow {
+	}
+.errorHeadImage {
+    width: 20%;
+	}
+.errorHeadLabel {
+    width: 80%;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-weight: Bold;
+	}
+
+.errorLabel {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	color: red;
+	background-color: #FFCCCC;
+    }
+
+.errorText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #CCCCCC;
+    }
