@@ -8,8 +8,8 @@
 <body>
 <?php
 
-	mysql_connect('ftp.gear.host','skystore\$skystore','K5RgAC5lrxX1z3EXbJSfPn7ioWd5drcvmbjwp9izCqEgNxzmGENuBF4sQFDm');
-	mysql_select_db("dbsky","Uo6fzhg-t3D_");
+	mysql_connect('den1.mysql3.gear.host','dbsky','Uo6fzhg-t3D_');
+	mysql_select_db("dbsky");
 	$username=$_POST['username'];
 	$email=$_POST['email'];
 	$phone=$_POST['phone'];
