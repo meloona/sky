@@ -1,8 +1,8 @@
 <?php
         ob_start();
-		$host="localhost"; // Host name 
-		$username="root"; // Mysql username 
-		$password="1234"; // Mysql password 
+		$host="ftp.gear.host"; // Host name 
+		$username="skystore\$skystore"; // Mysql username 
+		$password=" K5RgAC5lrxX1z3EXbJSfPn7ioWd5drcvmbjwp9izCqEgNxzmGENuBF4sQFDm"; // Mysql password 
 		$db_name="dbSky"; // Database name 
 		
 ?>
